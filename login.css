@@ -4,8 +4,9 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 98.3vh;
     align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -22,7 +23,7 @@ body {
 .mainSign {
     /* margin-top: 90px; */
     padding: 40px;
-    height: 600px;
+    height: 650px;
     width: 500px;
     background-color: #f1f1f1;
     /* margin: auto; */
@@ -149,3 +150,13 @@ p.forget{
     color: rgb(133, 53, 133);
 }
 
+.profile{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    cursor: pointer;
+    border-radius: 100%;
+    border: 1px solid black;
+}
