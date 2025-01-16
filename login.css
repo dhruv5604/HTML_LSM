@@ -155,10 +155,12 @@ p.forget{
     margin: 20px 0px;
     padding: 12px 15px;
     border-radius: 5px;
+    transition: transform 2s;
 }
 
 .submit:hover {
-    background-color: rgb(133, 53, 133);
+    background-color: rgb(133, 53, 133);   
+    transform: rotate(360deg);
     color: #fff;
 }
 
