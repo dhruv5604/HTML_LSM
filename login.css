@@ -217,7 +217,7 @@ p.forget{
 
 .tooltip {
     position: absolute;
-    bottom: -30px; /* Position below the circle */
+    bottom: -30px; 
     left: 50%;
     transform: translateX(-50%);
     background-color: #333;
@@ -234,4 +234,15 @@ p.forget{
 .profile:hover .tooltip {
     opacity: 1;
     visibility: visible;
+}
+
+
+#sign-in-form input:focus{
+    /* background-color: rgb(223, 161, 223); */
+    /* box-shadow: #333 5px 5px; */
+    border: 2px solid rgb(133, 53, 133);
+}
+
+.marq{
+    color: rgb(118, 118, 223);
 }
