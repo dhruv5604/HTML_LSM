@@ -190,6 +190,7 @@ p.forget{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .hveacc a {
@@ -202,12 +203,12 @@ p.forget{
     color: rgb(133, 53, 133);
 }
 
-.profile {
+.profile{
     height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
     cursor: pointer;
     border-radius: 100%;
     border: 1px solid black;
