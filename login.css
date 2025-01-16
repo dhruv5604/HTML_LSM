@@ -50,7 +50,6 @@ body {
 
 }
 .container {
-    
     padding:  0  50px;
     /* margin-left: 50px;/ */
     /* margin-top: 0px; */
@@ -96,7 +95,6 @@ body {
 
 
 .links a.activeSignIn{
-
     background-color: rgb(180, 71, 180);
     color: #f1f1f1;
     animation-name: changecolor;
@@ -131,8 +129,6 @@ body {
     50% {background-color: rgb(90, 185, 223);left: 40px; top: 0px;}
     75% {background-color: rgb(69, 207, 127);left: 20px; top:0px}
     100% {background-color: rgb(238, 86, 205);left: 0px; top: 0px;}
-
-
 }
 
 #uname,
@@ -166,7 +162,6 @@ p.forget{
     margin: auto;
     padding: 12px 15px;
     border-radius: 5px;
-    
 }
 
 .submit:hover {
@@ -190,7 +185,6 @@ p.forget{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .hveacc a {
