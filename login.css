@@ -90,7 +90,9 @@ body {
     color: #f1f1f1;
 } */
 
+
 .links a.activeSignIn{
+
     background-color: rgb(180, 71, 180);
     color: #f1f1f1;
     animation-name: changecolor;
@@ -106,6 +108,7 @@ body {
     50% {background-color: rgb(90, 185, 223);left: -40px; top: 0px;}
     75% {background-color: rgb(69, 207, 127);left: -20px; top:0px}
     100% {background-color: rgb(238, 86, 205);left: 0px; top: 0px;}
+
 }
 
 .links a.activeSignup{
@@ -124,6 +127,8 @@ body {
     50% {background-color: rgb(90, 185, 223);left: 40px; top: 0px;}
     75% {background-color: rgb(69, 207, 127);left: 20px; top:0px}
     100% {background-color: rgb(238, 86, 205);left: 0px; top: 0px;}
+
+
 }
 
 #uname,
@@ -173,7 +178,6 @@ p.forget{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .hveacc a {
@@ -186,13 +190,35 @@ p.forget{
     color: rgb(133, 53, 133);
 }
 
-.profile{
+.profile {
     height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     cursor: pointer;
     border-radius: 100%;
     border: 1px solid black;
+    position: relative; /* Needed for tooltip positioning */
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -30px; /* Position below the circle */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.profile:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
 }
